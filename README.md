@@ -1,41 +1,74 @@
 # 🎮 Projeto Steam Game Tracker
 
-## Descrição
+## 📘 Descrição
 
-Este projeto faz com que um banco de MySQLServer consuma a API da steam.
+Este projeto consome a **API pública da Steam** e armazena os dados localmente em um banco **SQLite**.  
+Ele gera automaticamente uma **interface HTML** para visualizar e filtrar os jogos.
 
-- Armazena dados básicos de cada jogo (nome, tempo de jogo, nota).  
-- Atualiza automaticamente os jogos existentes e adiciona novos jogos com base na API da Steam.  
-- Mantém um **log de atualizações**, registrando quantas linhas foram alteradas e se a execução foi bem-sucedida.  
+- Sincroniza os dados da conta Steam.
+- Atualiza automaticamente o banco de dados.
+- Gera `data.json` e `index.html` com os dados prontos para visualização.
 
 ---
 
-## Estrutura do Banco de Dados
+## 🧱 Estrutura do Banco de Dados
 
 ### Tabela `game`
 
-Armazena os jogos e seus dados.
+| Coluna              | Tipo       | Descrição |
+|---------------------|------------|-----------|
+| `appid`             | INTEGER PK | ID do jogo na Steam |
+| `steam_name`        | TEXT       | Nome do jogo |
+| `playtime_forever`  | INTEGER    | Tempo jogado (minutos) |
+| `rtime_last_played` | TEXT       | Última data jogada (YYYY-MM-DD) |
 
-| Coluna             | Tipo           | Descrição |
-|-------------------|---------------|-----------|
-| `appid`           | INT (PK)      | Identificador único do jogo na Steam |
-| `Steam_name`      | NVARCHAR(255) | Nome do jogo |
-| `rating`          | TINYINT       | Nota pessoal de 0 a 10 |
-| `playtime_forever`| INT           | Tempo total jogado (em minutos) |
-| `rtime_last_played` | DATETIME     | Última vez que o jogo foi jogado |
-| `img_url`         | NVARCHAR(255) | Hash da imagem do jogo (Steam) |
+**Observação:**  
+`rtime_last_played` é convertido de **epoch** (segundos desde 1970) para data legível antes de ser inserido no banco.
 
-**Observações**:
+---
 
-- `rtime_last_played` da API vem em **epoch** (segundos desde 1970). Antes de inserir no SQL Server, deve ser convertido usando:
+## 🔁 Fluxo de Atualização
 
-### Tabela `UpdatesLog`
+1. Cria/valida o banco SQLite (`setup_db()`).
+2. Consulta a API da Steam (`requests.get(...)`).
+3. Atualiza ou insere jogos no banco (`INSERT ... ON CONFLICT DO UPDATE`).
+4. Exporta tudo para `data.json`.
+5. Gera `index.html` com busca e ordenação de jogos.
 
-Registra as execuções do script de atualização.
+---
 
-| Coluna        | Tipo                  | Descrição |
-|--------------|-----------------------|-----------|
-| `id`         | INT (PK, auto-increment) | Identificador único do log |
-| `rows_updated` | INT                  | Quantidade de linhas atualizadas/inseridas |
-| `date_run`   | DATETIME              | Data e hora da execução do script |
-| `success`    | BIT                   | Status da execução (1 = sucesso, 0 = falha) |
+## 🌐 Interface Web
+
+A interface usa **JavaScript puro** para carregar `data.json`, exibir os jogos e permitir filtros:
+
+- Filtro de busca por nome  
+- Ordenação por mais jogados, mais recentes ou alfabética  
+- Exibição de tempo com “h” (ex: `200h`)  
+- Datas no formato brasileiro (`31/04/2025`)
+
+---
+
+## 🚀 Execução
+
+1. Adicione sua Steam API Key e ID no código Python.  
+2. Rode:
+   ```bash
+   python main.py
+   ```
+3. Abra `index.html` ou use:
+   ```bash
+   python -m http.server
+   ```
+   e acesse **http://localhost:8000**
+
+---
+
+## 🧩 Tecnologias
+
+| Camada | Tecnologia |
+|--------|-------------|
+| Banco  | SQLite |
+| API    | Steam Web API |
+| Backend | Python 3 |
+| Frontend | HTML, CSS e JavaScript |
+```
