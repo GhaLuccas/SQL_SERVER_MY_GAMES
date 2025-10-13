@@ -1,0 +1,497 @@
+[
+  {
+    "steam_name": "Half-Life",
+    "playtime": 0,
+    "last_played": "2023-11-22"
+  },
+  {
+    "steam_name": "Team Fortress 2",
+    "playtime": 2667,
+    "last_played": "2025-07-23"
+  },
+  {
+    "steam_name": "Left 4 Dead",
+    "playtime": 0,
+    "last_played": "-"
+  },
+  {
+    "steam_name": "Left 4 Dead 2",
+    "playtime": 125,
+    "last_played": "2025-08-19"
+  },
+  {
+    "steam_name": "Counter-Strike 2",
+    "playtime": 20,
+    "last_played": "2024-05-05"
+  },
+  {
+    "steam_name": "Borderlands GOTY",
+    "playtime": 0,
+    "last_played": "-"
+  },
+  {
+    "steam_name": "The Witcher: Enhanced Edition",
+    "playtime": 3,
+    "last_played": "2024-04-18"
+  },
+  {
+    "steam_name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+    "playtime": 0,
+    "last_played": "-"
+  },
+  {
+    "steam_name": "Poker Night at the Inventory",
+    "playtime": 3,
+    "last_played": "2019-05-25"
+  },
+  {
+    "steam_name": "Borderlands 2",
+    "playtime": 24,
+    "last_played": "2025-08-29"
+  },
+  {
+    "steam_name": "The Elder Scrolls V: Skyrim",
+    "playtime": 73,
+    "last_played": "2024-01-31"
+  },
+  {
+    "steam_name": "Spiral Knights",
+    "playtime": 5,
+    "last_played": "2016-08-28"
+  },
+  {
+    "steam_name": "Super Monday Night Combat",
+    "playtime": 0,
+    "last_played": "2016-11-02"
+  },
+  {
+    "steam_name": "Neverwinter",
+    "playtime": 4,
+    "last_played": "2016-12-11"
+  },
+  {
+    "steam_name": "Awesomenauts",
+    "playtime": 5,
+    "last_played": "2017-06-02"
+  },
+  {
+    "steam_name": "Blacklight: Retribution",
+    "playtime": 1,
+    "last_played": "2018-03-01"
+  },
+  {
+    "steam_name": "Resident Evil 6",
+    "playtime": 1,
+    "last_played": "2024-12-18"
+  },
+  {
+    "steam_name": "Heroes & Generals",
+    "playtime": 0,
+    "last_played": "2016-11-26"
+  },
+  {
+    "steam_name": "Warframe",
+    "playtime": 234,
+    "last_played": "2024-01-12"
+  },
+  {
+    "steam_name": "Dungeon Defenders II",
+    "playtime": 0,
+    "last_played": "2016-10-27"
+  },
+  {
+    "steam_name": "Elsword",
+    "playtime": 0,
+    "last_played": "2021-03-29"
+  },
+  {
+    "steam_name": "BattleBlock Theater",
+    "playtime": 11,
+    "last_played": "2018-08-18"
+  },
+  {
+    "steam_name": "Path of Exile",
+    "playtime": 0,
+    "last_played": "2018-05-28"
+  },
+  {
+    "steam_name": "Borderlands: The Pre-Sequel",
+    "playtime": 3,
+    "last_played": "2025-02-15"
+  },
+  {
+    "steam_name": "Counter-Strike Nexon",
+    "playtime": 1,
+    "last_played": "2018-02-18"
+  },
+  {
+    "steam_name": "Resident Evil Revelations 2",
+    "playtime": 0,
+    "last_played": "2024-08-17"
+  },
+  {
+    "steam_name": "Suicide Squad: Kill the Justice League",
+    "playtime": 22,
+    "last_played": "2024-12-16"
+  },
+  {
+    "steam_name": "Jotun: Valhalla Edition",
+    "playtime": 4,
+    "last_played": "2018-07-18"
+  },
+  {
+    "steam_name": "Tales from the Borderlands",
+    "playtime": 0,
+    "last_played": "-"
+  },
+  {
+    "steam_name": "Dirty Bomb",
+    "playtime": 1,
+    "last_played": "2018-07-15"
+  },
+  {
+    "steam_name": "Dragon's Dogma: Dark Arisen",
+    "playtime": 78,
+    "last_played": "2025-01-19"
+  },
+  {
+    "steam_name": "Hollow Knight",
+    "playtime": 33,
+    "last_played": "2023-09-04"
+  },
+  {
+    "steam_name": "Ghost in the Shell: Stand Alone Complex - First Assault Online",
+    "playtime": 0,
+    "last_played": "2017-07-18"
+  },
+  {
+    "steam_name": "Tree of Savior (English Ver.)",
+    "playtime": 2,
+    "last_played": "2017-05-18"
+  },
+  {
+    "steam_name": "Dead by Daylight",
+    "playtime": 192,
+    "last_played": "2024-03-07"
+  },
+  {
+    "steam_name": "Relic Hunters Zero: Remix",
+    "playtime": 9,
+    "last_played": "2020-08-14"
+  },
+  {
+    "steam_name": "SMITE",
+    "playtime": 234,
+    "last_played": "2024-03-16"
+  },
+  {
+    "steam_name": "Borderlands 3",
+    "playtime": 155,
+    "last_played": "2025-08-21"
+  },
+  {
+    "steam_name": "Dishonored 2",
+    "playtime": 26,
+    "last_played": "2023-01-05"
+  },
+  {
+    "steam_name": "Resident Evil 7 Biohazard",
+    "playtime": 3,
+    "last_played": "2024-09-21"
+  },
+  {
+    "steam_name": "Carpe Diem",
+    "playtime": 0,
+    "last_played": "2018-01-29"
+  },
+  {
+    "steam_name": "Wallpaper Engine",
+    "playtime": 1,
+    "last_played": "2025-09-19"
+  },
+  {
+    "steam_name": "Kritika:REBOOT",
+    "playtime": 103,
+    "last_played": "2021-04-21"
+  },
+  {
+    "steam_name": "Paladins",
+    "playtime": 244,
+    "last_played": "2024-03-07"
+  },
+  {
+    "steam_name": "The Elder Scrolls V: Skyrim Special Edition",
+    "playtime": 76,
+    "last_played": "2025-03-06"
+  },
+  {
+    "steam_name": "Battlerite",
+    "playtime": 4,
+    "last_played": "2019-01-21"
+  },
+  {
+    "steam_name": "Deep Rock Galactic",
+    "playtime": 16,
+    "last_played": "2024-11-02"
+  },
+  {
+    "steam_name": "Warhammer: Vermintide 2",
+    "playtime": 66,
+    "last_played": "2025-09-28"
+  },
+  {
+    "steam_name": "MapleStory 2",
+    "playtime": 3,
+    "last_played": "2018-11-06"
+  },
+  {
+    "steam_name": "Alien Swarm: Reactive Drop",
+    "playtime": 2,
+    "last_played": "2024-11-09"
+  },
+  {
+    "steam_name": "DARK SOULS™: REMASTERED",
+    "playtime": 33,
+    "last_played": "2025-06-15"
+  },
+  {
+    "steam_name": "Fausts Alptraum",
+    "playtime": 7,
+    "last_played": "2019-09-07"
+  },
+  {
+    "steam_name": "Hotshot Racing",
+    "playtime": 0,
+    "last_played": "2024-12-08"
+  },
+  {
+    "steam_name": "SoulWorker",
+    "playtime": 2,
+    "last_played": "2018-07-05"
+  },
+  {
+    "steam_name": "Risk of Rain 2",
+    "playtime": 4,
+    "last_played": "2022-07-15"
+  },
+  {
+    "steam_name": "Confess My Love",
+    "playtime": 0,
+    "last_played": "2018-01-12"
+  },
+  {
+    "steam_name": "CODE VEIN",
+    "playtime": 50,
+    "last_played": "2025-02-23"
+  },
+  {
+    "steam_name": "Doki Doki Literature Club",
+    "playtime": 105,
+    "last_played": "2018-02-25"
+  },
+  {
+    "steam_name": "World War Z",
+    "playtime": 9,
+    "last_played": "2025-02-14"
+  },
+  {
+    "steam_name": "Borderlands GOTY Enhanced",
+    "playtime": 13,
+    "last_played": "2023-11-11"
+  },
+  {
+    "steam_name": "Phasmophobia",
+    "playtime": 8,
+    "last_played": "2025-08-30"
+  },
+  {
+    "steam_name": "Sekiro™: Shadows Die Twice",
+    "playtime": 46,
+    "last_played": "2025-08-09"
+  },
+  {
+    "steam_name": "Super Animal Royale",
+    "playtime": 0,
+    "last_played": "2024-02-20"
+  },
+  {
+    "steam_name": "Sunset Overdrive",
+    "playtime": 3,
+    "last_played": "2025-10-07"
+  },
+  {
+    "steam_name": "Resident Evil 2",
+    "playtime": 22,
+    "last_played": "2025-02-08"
+  },
+  {
+    "steam_name": "Back 4 Blood",
+    "playtime": 17,
+    "last_played": "2024-09-24"
+  },
+  {
+    "steam_name": "Pacify",
+    "playtime": 0,
+    "last_played": "2022-05-13"
+  },
+  {
+    "steam_name": "Hollow Knight: Silksong",
+    "playtime": 8,
+    "last_played": "2025-10-11"
+  },
+  {
+    "steam_name": "Crucible",
+    "playtime": 0,
+    "last_played": "-"
+  },
+  {
+    "steam_name": "Destiny 2",
+    "playtime": 42,
+    "last_played": "2023-12-11"
+  },
+  {
+    "steam_name": "Apex Legends",
+    "playtime": 70,
+    "last_played": "2024-11-26"
+  },
+  {
+    "steam_name": "Battlefield™ 1",
+    "playtime": 25,
+    "last_played": "2025-03-26"
+  },
+  {
+    "steam_name": "DEVOUR",
+    "playtime": 13,
+    "last_played": "2025-10-12"
+  },
+  {
+    "steam_name": "Tiny Tina's Wonderlands",
+    "playtime": 40,
+    "last_played": "2025-02-16"
+  },
+  {
+    "steam_name": "Warhammer 40,000: Darktide",
+    "playtime": 48,
+    "last_played": "2025-09-28"
+  },
+  {
+    "steam_name": "Soulworker",
+    "playtime": 2,
+    "last_played": "2021-06-21"
+  },
+  {
+    "steam_name": "Deadlock",
+    "playtime": 14,
+    "last_played": "2025-09-28"
+  },
+  {
+    "steam_name": "New Tales from the Borderlands",
+    "playtime": 0,
+    "last_played": "-"
+  },
+  {
+    "steam_name": "Slappyball",
+    "playtime": 1,
+    "last_played": "2023-12-09"
+  },
+  {
+    "steam_name": "Lords of the Fallen",
+    "playtime": 7,
+    "last_played": "2025-06-15"
+  },
+  {
+    "steam_name": "Paragon: The Overprime",
+    "playtime": 6,
+    "last_played": "2022-12-08"
+  },
+  {
+    "steam_name": "Lost Ark",
+    "playtime": 4,
+    "last_played": "2022-05-09"
+  },
+  {
+    "steam_name": "MY HERO ULTRA RUMBLE",
+    "playtime": 7,
+    "last_played": "2023-11-02"
+  },
+  {
+    "steam_name": "HonkaiImpact 3rd",
+    "playtime": 2,
+    "last_played": "2021-12-24"
+  },
+  {
+    "steam_name": "Haste",
+    "playtime": 3,
+    "last_played": "2025-07-25"
+  },
+  {
+    "steam_name": "MultiVersus",
+    "playtime": 12,
+    "last_played": "2024-06-10"
+  },
+  {
+    "steam_name": "Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition",
+    "playtime": 27,
+    "last_played": "2025-09-21"
+  },
+  {
+    "steam_name": "Dragon's Dogma 2",
+    "playtime": 114,
+    "last_played": "2025-08-17"
+  },
+  {
+    "steam_name": "The First Descendant",
+    "playtime": 1,
+    "last_played": "2024-07-20"
+  },
+  {
+    "steam_name": "Paper Lily - Chapter 1",
+    "playtime": 0,
+    "last_played": "2024-11-01"
+  },
+  {
+    "steam_name": "Wayfinder Beta",
+    "playtime": 1,
+    "last_played": "2023-05-26"
+  },
+  {
+    "steam_name": "Overwatch® 2",
+    "playtime": 1,
+    "last_played": "2024-03-02"
+  },
+  {
+    "steam_name": "SMITE 2",
+    "playtime": 1,
+    "last_played": "2025-04-05"
+  },
+  {
+    "steam_name": "ELDEN RING NIGHTREIGN",
+    "playtime": 134,
+    "last_played": "2025-09-22"
+  },
+  {
+    "steam_name": "Marvel Rivals",
+    "playtime": 23,
+    "last_played": "2025-01-10"
+  },
+  {
+    "steam_name": "Content Warning",
+    "playtime": 7,
+    "last_played": "2024-12-29"
+  },
+  {
+    "steam_name": "FragPunk",
+    "playtime": 35,
+    "last_played": "2025-03-25"
+  },
+  {
+    "steam_name": "R.E.P.O.",
+    "playtime": 10,
+    "last_played": "2025-08-03"
+  },
+  {
+    "steam_name": "PEAK",
+    "playtime": 5,
+    "last_played": "2025-07-12"
+  }
+]

@@ -1,0 +1,5 @@
+STEAM_API_KEY=95F7017F7EC3908F785626B15F170ED3
+password=keyword
+STEAM_ID ="76561198311759407"
+
+https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=95F7017F7EC3908F785626B15F170ED3&steamid=76561198311759407&include_appinfo=1&include_played_free_games=1&format=json
